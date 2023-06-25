@@ -1,0 +1,305 @@
+.gradient{
+    height:100vh;
+      background-image: url(images/backgrounds.webp);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      position: relative;
+   }
+   
+   .gradient-background {
+      background: linear-gradient(300deg, #34c2f2, #ed5d72, #c26af1);
+      background-size: 180% 180%;
+      animation: gradient-animation 18s ease infinite; 
+    }
+    
+    body {
+      text-align: center;
+      /* background-color: rgb(55, 55, 117); */
+      /* background-image: url(images/backgrounds.webp); */
+    }
+    h2{
+      font-size: 3rem;
+      color: whitesmoke;
+      font-family: "Arvo", cursive;
+      /* text-shadow: 3px 0 #b3c71a; */
+      text-align: center;
+  
+    }
+      
+    
+    .intro .welcome{
+      font-size: 5rem;
+      color: #DBEDF3;
+      font-family: "Great Vibes", cursive;
+      text-shadow: 3px 0 #b3c71a;
+      text-align: center;
+    
+    }
+    .intro .folks{
+      font-size: 3rem;
+      color: whitesmoke;
+      font-family: "Arvo", cursive;
+      /* text-shadow: 3px 0 #b3c71a; */
+      text-align: center;
+    
+    }
+    p{
+      color:white;
+    }
+    
+    h1 {
+      font-size: 10rem;
+      color: #DBEDF3;
+      font-family: "Arvo", cursive;
+      text-shadow: 3px 0 #DA0463;
+      text-align: center;
+    
+    }
+    
+    footer {
+      color: #DBEDF3;
+      font-family: sans-serif;
+    }
+    .set1{
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      /* width:1447px;
+      height:300px; */
+      /*  */
+      margin-top:20px;
+      margin-bottom: 5px;
+    
+    }
+    .pinio-keys{
+      display:flex;
+    }
+    .pinio-keys .key{
+      cursor: pointer;
+      color:grey;
+      list-style: none;
+      text-transform: uppercase;
+      position: relative;
+    }
+    .pinio-keys .white{
+      width:70px;
+      height:230px;
+      border-radius: 8px;
+      border:1px solid black;
+      background-color: white;
+      
+    }
+    .pinio-keys .white:active{
+      box-shadow: inset -5px 5px 10px rgba(0,0,0,0.2);
+      background: white;
+    }
+    .pinio-keys .black{
+      width:44px;
+      height:140px;
+      z-index: 2;
+      margin:0px -22px 0px -22px;
+      border-radius:0px 0px 5px 5px ;
+      background-color: black;
+    }
+    .pinio-keys .black:active{
+      box-shadow: inset -5px 5px 10px rgba(23, 23, 23, 0.933);
+      background: black;
+    }
+    .pinio-keys span{
+      position: absolute;
+      bottom: 20px;
+      text-align: center;
+    }
+    
+    .w {
+      background-image: url(images/tom1.png);
+    
+    }
+    
+    .a {
+      background-image: url(images/tom2.png);
+    
+    }
+    
+    .s {
+      background-image: url(images/tom3.png);
+    }
+    
+    .d {
+      background-image: url(images/tom4.png);
+    }
+    
+    .j {
+      background-image: url(images/snare.png);
+    
+    }
+    
+    .k {
+      background-image: url(images/crash.png);
+    
+    }
+    
+    .l {
+      background-image: url(images/kick.png);
+    
+    }
+    
+    
+    
+    
+    .drum {
+      cursor: pointer;
+      outline: none;
+      border: 10px solid #404B69;
+      font-size: 5rem;
+      font-family: 'Arvo', cursive;
+      line-height: 2;
+      font-weight: 900;
+      color: #DA0463;
+      text-shadow: 3px 0 #DBEDF3;
+      border-radius: 15px;
+      display: inline-block;
+      width: 150px;
+      height: 150px;
+      text-align: center;
+      margin: 10px;
+      background-color: white;
+    }
+    @media(max-width:576px){
+      html{
+        font-size: 50%;
+      }
+      .imgb{
+        display:block;
+        margin-right:auto;
+        margin-left:auto;
+        width:50%;
+        
+  
+      }
+      h1{
+        font-size:3rem;
+        text-align:center;
+      }
+      .p1{
+        font-size: 40px;
+        text-align:center;
+      }
+    }
+      @media screen and (max-width:576){
+        .piano-keys .key:nth-child(13),
+      .piano-keys .key:nth-child(14),
+      .piano-keys .key:nth-child(15),
+      .piano-keys .key:nth-child(16),
+      .piano-keys .key :nth-child(17) {
+      display: none;
+    }
+      .piano-keys .white {
+      width: 10px;
+    }
+        
+  }
+      
+      
+    
+    @media (min-width:577px) and (max-width: 700px){
+      html{
+        font-size: 50%;
+      }
+      
+      h1{
+        font-size:3rem;
+        text-align:center;
+      }
+      .p1{
+        font-size: 40px;
+        text-align:center;
+      }
+      .piano-keys {
+        margin-top: 20px;
+      }
+      .piano-keys .key:where(:nth-child(9), :nth-child(10)) {
+        display: none;
+      }
+      .piano-keys .black {
+        height: 100px;
+        width: 40px;
+        margin: 0 -20px 0 -20px;
+      }
+      .piano-keys .white {
+        height: 180px;
+        width: 60px;
+      }
+    }
+    @media (min-width:701px) and (max-width: 800px){
+      html{
+        font-size: 50%;
+      }
+      
+      h1{
+        font-size:3rem;
+        text-align:center;
+      }
+      h3{
+        font-size:40px;
+      }
+      .p1{
+        font-size: 40px;
+        text-align:center;
+      }
+    }
+    @media (min-width:801px) and (max-width: 900px){
+      html{
+        font-size: 50%;
+      }
+      
+      h1{
+        font-size:3rem;
+        text-align:center;
+      }
+      h3{
+  
+      }
+      .p1{
+        font-size: 40px;
+        text-align:center;
+      }
+    }
+    @media (min-width:901px) and (max-width: 1000px){
+      html{
+        font-size: 50%;
+      }
+      
+      h1{
+        font-size:3rem;
+        text-align:center;
+      }
+      h3{
+  
+      }
+      .p1{
+        font-size: 40px;
+        text-align:center;
+      }
+    }
+    
+    @media (min-width:1001px) and (max-width: 1100px){
+      html{
+        font-size: 50%;
+      }
+      
+      h1{
+        font-size:3rem;
+        text-align:center;
+      }
+      h3{
+  
+      }
+      .p1{
+        font-size: 40px;
+        text-align:center;
+      }
+    }
+    
+  
